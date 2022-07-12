@@ -212,7 +212,7 @@ body::-webkit-scrollbar-thumb {
     background: whitesmoke;
 }
 .item-menu{
-    margin: 0;
+    /*margin: 0;*/
     font-size: 30px;
     margin-top: 40px;
     color: mediumpurple;
@@ -254,12 +254,12 @@ body::-webkit-scrollbar-thumb {
     text-transform: capitalize;
     color: #480a17;
 }
-#category-list{
+/*#category-list{
     display: none;
-}
-.cart-toggle{
+}*/
+/*.cart-toggle{
     display: none;
-}
+}*/
 #cart-page{
     background: white;
     margin: 40px 10px;
@@ -282,9 +282,9 @@ body::-webkit-scrollbar-thumb {
     font-size: 25px;
     padding-bottom: 10px;
 }
-#m-total-amount{
+/*#m-total-amount{
     display: none;
-}
+}*/
 #cart-page table tbody td{
     padding: 10px;
     font-size: 20px;

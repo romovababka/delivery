@@ -45,7 +45,7 @@ function displayItems() {
 
         let itemPrice = document.createElement("p");
         itemPrice.setAttribute("id", "item-price");
-        itemPrice.innerText = item.price;
+        itemPrice.innerText ="Price: £" + item.price;
 
         itemCard.appendChild(cardTop);
         itemCard.appendChild(img);
@@ -83,7 +83,7 @@ function displayItems() {
 
         let itemPrice = document.createElement("p");
         itemPrice.setAttribute("id", "item-price");
-        itemPrice.innerText = item.price;
+        itemPrice.innerText ="Price: £" + item.price;
 
         itemCard.appendChild(cardTop);
         itemCard.appendChild(img);
@@ -121,7 +121,7 @@ function displayItems() {
 
         let itemPrice = document.createElement("p");
         itemPrice.setAttribute("id", "item-price");
-        itemPrice.innerText = item.price;
+        itemPrice.innerText ="Price: £" + item.price;
 
         itemCard.appendChild(cardTop);
         itemCard.appendChild(img);
@@ -159,7 +159,7 @@ function displayItems() {
 
         let itemPrice = document.createElement("p");
         itemPrice.setAttribute("id", "item-price");
-        itemPrice.innerText = item.price;
+        itemPrice.innerText ="Price: £" + item.price;
 
         itemCard.appendChild(cardTop);
         itemCard.appendChild(img);
@@ -170,3 +170,28 @@ function displayItems() {
     })
 }
 displayItems();
+
+const categoryListData = [...new Map(food.map(item=>[item["category"],item])).values()]
+console.log(categoryListData);
+
+function categoryLists(){
+    let categoryList = document.getElementById("category-list");
+    categoryListData.map(item =>{
+        let listCard = document.createElement("div");
+        listCard.setAttribute("class", "list-card");
+
+        let listImg = document.createElement("img");
+        listImg.src = item.img;
+
+        let listName = document.createElement("a");
+        listName.setAttribute("class", "list-name");
+        listName.innerText = item.category;
+        listName.setAttribute("href", "#"+item.category);
+
+        listCard.appendChild(listImg);
+        listCard.appendChild(listName);
+        categoryList.appendChild(listCard);
+    })
+}
+
+categoryLists();
