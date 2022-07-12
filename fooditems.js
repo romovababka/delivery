@@ -5,7 +5,8 @@ const food = [
         name: "German Doner Kebab",
         kcal: 599,
         category: "donner",
-        price: 7.99
+        quantity : 1,
+        price: 7
     },
     {
         id: 2,
@@ -13,6 +14,7 @@ const food = [
         name: "Fresh shaurma",
         kcal: 700,
         category: "donner",
+        quantity : 1,
         price: 12
     },
     {
@@ -21,6 +23,7 @@ const food = [
         name: "Chicken shish",
         kcal: 800,
         price: 20,
+        quantity : 1,
         category: "donner",
     },
     {
@@ -29,6 +32,7 @@ const food = [
         name: "Lamb shish",
         kcal: 800,
         category: "donner",
+        quantity : 1,
         price: 18
     },
     {
@@ -36,7 +40,8 @@ const food = [
         img: "https://the-challenger.ru/wp-content/uploads/2018/02/shutterstock_312906398-800x533.jpg",
         name: "Tako with beef",
         kcal: 350,
-        price: 5.99,
+        price: 5,
+        quantity : 1,
         category: "donner",
     },
     {
@@ -45,6 +50,7 @@ const food = [
         name: "REGULAR TANGO",
         kcal: 100,
         category: "kfc",
+        quantity : 1,
         price: 2
     },
     {
@@ -53,7 +59,7 @@ const food = [
         category: "kfc",
         img: "https://assets.kfcapi.com/fit-in/500x500/products/drinks/DIETPEPSI_RG.jpg",
         name: "REGULAR DIET PEPSI",
-
+        quantity : 1,
         price: 2.50
     },
     {
@@ -61,6 +67,7 @@ const food = [
         kcal: 300,
         category: "kfc",
         price: 4,
+        quantity : 1,
         img: "https://assets.kfcapi.com/fit-in/500x500/products/drinks/KRUSHEM_MALTESER.jpg",
         name: "MALTESERS® KRUSHEM"
     },
@@ -70,6 +77,7 @@ const food = [
         name: "OREO® KRUSHEMS",
         kcal: 300,
         price: 4,
+        quantity : 1,
         category: "kfc",
     },
     {
@@ -78,6 +86,7 @@ const food = [
         name: "REGULAR COLESLAW",
         kcal: 30,
         price: 3,
+        quantity : 1,
         category: "kfc",
     },
     {
@@ -87,6 +96,7 @@ const food = [
         kcal: 120,
         price: 2,
         category: "kfc",
+        quantity : 1,
     },
     {
         id: 12,
@@ -94,6 +104,7 @@ const food = [
         name: "MIGHTY BUCKET FOR ONE MEAL",
         kcal: 1000,
         price: 18,
+        quantity : 1,
         category: "kfc",
     },
     {
@@ -102,6 +113,7 @@ const food = [
         name: "4 PIECE COLONEL’S MEAL",
         kcal: 1000,
         price: 16,
+        quantity : 1,
         category: "kfc",
     },
     {
@@ -110,6 +122,7 @@ const food = [
         name: "TRILOGY BOX MEAL",
         kcal: 1000,
         price: 17,
+        quantity : 1,
         category: "kfc",
     },
     {
@@ -117,6 +130,7 @@ const food = [
         name: "Vanilla",
         kcal: 200,
         price: 2,
+        quantity : 1,
         category: "ice_cream",
         img:"https://insanelygoodrecipes.com/wp-content/uploads/2020/04/Ice-Cream.webp"
     },
@@ -126,6 +140,7 @@ const food = [
         name: "Chocolate",
         kcal: 200,
         price: 2,
+        quantity : 1,
         category: "ice_cream",
         img: "https://insanelygoodrecipes.com/wp-content/uploads/2020/07/Bowl-of-chocolate-ice-cream.webp"
     },
@@ -135,6 +150,7 @@ const food = [
         name: "Chocolate Chip",
         kcal :200 ,
         price:2 ,
+        quantity : 1,
         category: "ice_cream",
         img:"https://insanelygoodrecipes.com/wp-content/uploads/2020/07/bowl-of-chocolate-chip-ice-cream.webp"
     },
@@ -143,31 +159,34 @@ const food = [
         id : 18,
         name: " Butter Pecan",
         kcal :200 ,
-        price:2 ,
+        quantity : 1,
+        price: 2 ,
         category: "ice_cream",
-        img:"https://insanelygoodrecipes.com/wp-content/uploads/2020/06/butter-pecan-ice-cream.webp"
+        img:"https://insanelygoodrecipes.com/wp-content/uploads/2020/06/butter-pecan-ice-cream.webp",
     },
 
     {
         id : 19,
         name: " Eggnog",
         kcal :200 ,
-        price:2 ,
+        price: 2 ,
+        quantity : 1,
         category: "ice_cream",
         img:"https://insanelygoodrecipes.com/wp-content/uploads/2020/07/eggnog-ice-cream-with-cinnamon.webp"
     },
-
     {
         id: 20,
         name: "Strawberry",
         kcal: 200,
         price: 2,
+        quantity : 1,
         category: "ice_cream",
         img: "https://insanelygoodrecipes.com/wp-content/uploads/2020/07/Bowl-Of-Strawberry-Ice-Cream.webp"
     },
 
     {
         id: 21,
+        quantity : 1,
         name: "Horchata",
         kcal: 200,
         price: 2,
@@ -178,6 +197,7 @@ const food = [
         id: 22,
         name: "Peking Roasted Duck",
         kcal: 100,
+        quantity : 1,
         category: "chinese",
         img: "https://images.chinahighlights.com/allpicture/2021/12/d247e7d25b164b77841f6022_cut_750x400_39.webp",
         price: 15
@@ -186,6 +206,7 @@ const food = [
         id: 23,
         name:"Kung Pao Chicken",
         kcal: 400,
+        quantity : 1,
         category: "chinese",
         img: "https://images.chinahighlights.com/allpicture/2019/11/31acb7b302ec4b48b17443ed_cut_750x400_39.webp",
         price: 13
@@ -194,12 +215,14 @@ const food = [
         id: 24,
         name:"Sweet and Sour Pork",
         kcal: 200,
+        quantity : 1,
         category: "chinese",
         img: "https://images.chinahighlights.com/allpicture/2019/11/a4ad4a7fe0cb401cb0be6383_cut_750x400_39.webp",
         price:18
     },
     {
         id: 25,
+        quantity : 1,
         name:"Hot Pot",
         kcal: 300,
         category: "chinese",
@@ -210,6 +233,7 @@ const food = [
         id: 26,
         name:"Dim Sum",
         kcal: 80,
+        quantity : 1,
         category: "chinese",
         img: "https://images.chinahighlights.com/allpicture/2018/08/16d96371fd2944be86ffbdc1_cut_750x400_39.webp",
         price: 19
@@ -218,12 +242,14 @@ const food = [
         id: 27,
         name:"Dumplings",
         kcal: 300,
+        quantity : 1,
         category: "chinese",
         img: "https://images.chinahighlights.com/allpicture/2019/01/9b7159f6d89449d997eaa5ab_cut_750x400_39.webp",
         price: 13
     },
     {
         id: 28,
+        quantity : 1,
         name:"Ma Po Tofu",
         kcal: 50,
         category: "chinese",
