@@ -158,7 +158,7 @@ const food = [
     },
 
     {
-        id: 19,
+        id: 20,
         name: "Strawberry",
         kcal: 200,
         price: 2,
@@ -167,7 +167,7 @@ const food = [
     },
 
     {
-        id: 20,
+        id: 21,
         name: "Horchata",
         kcal: 200,
         price: 2,
@@ -175,7 +175,7 @@ const food = [
         img: "https://insanelygoodrecipes.com/wp-content/uploads/2020/07/Horchata-ice-cream-with-cinnamon.webp"
     },
     {
-        id: 21,
+        id: 22,
         name: "Peking Roasted Duck",
         kcal: 100,
         category: "chinese",
@@ -183,7 +183,7 @@ const food = [
         price: 15
     },
     {
-        id: 22,
+        id: 23,
         name:"Kung Pao Chicken",
         kcal: 400,
         category: "chinese",
@@ -191,7 +191,7 @@ const food = [
         price: 13
     },
     {
-        id: 23,
+        id: 24,
         name:"Sweet and Sour Pork",
         kcal: 200,
         category: "chinese",
@@ -199,7 +199,7 @@ const food = [
         price:18
     },
     {
-        id: 24,
+        id: 25,
         name:"Hot Pot",
         kcal: 300,
         category: "chinese",
@@ -207,7 +207,7 @@ const food = [
         price: 20
     },
     {
-        id: 25,
+        id: 26,
         name:"Dim Sum",
         kcal: 80,
         category: "chinese",
@@ -215,7 +215,7 @@ const food = [
         price: 19
     },
     {
-        id: 26,
+        id: 27,
         name:"Dumplings",
         kcal: 300,
         category: "chinese",
@@ -223,7 +223,7 @@ const food = [
         price: 13
     },
     {
-        id: 27,
+        id: 28,
         name:"Ma Po Tofu",
         kcal: 50,
         category: "chinese",

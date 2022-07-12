@@ -190,8 +190,33 @@ function categoryLists(){
 
         listCard.appendChild(listImg);
         listCard.appendChild(listName);
+
+        let cloneListCard = listCard.cloneNode(true)
         categoryList.appendChild(listCard);
     })
 }
 
 categoryLists();
+
+
+document.querySelectorAll(".add-to-cart").forEach(item=>{
+    item.addEventListener("click", addToCart)
+})
+let cartData=[];
+function addToCart(){
+    let itemToAdd =this.parentNode.nextSibling.nextSibling.innerText;
+    let itemObj = food.find(element=>element.name===itemToAdd);
+    //console.log(itemObj)
+    let index = cartData.indexOf(itemObj);
+    if (index === -1){
+        document.getElementById(itemObj.id).classList.add("toggle-heart");
+        cartData = [...cartData,itemObj];
+        console.log(cartData)
+    } else if(index > -1){
+        //if user want to add smth more than once
+        alert("Added to cart")
+    }
+    //show amount of items (top of the page)
+    document.getElementById("cart-plus").innerText = " " + cartData.length + " Items"
+    document.getElementById("m-cart-plus").innerText = " " + cartData.length;
+}
