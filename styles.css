@@ -112,9 +112,10 @@ body::-webkit-scrollbar-thumb {
     color: white;
     background: brown;
 }
-.food-items{
+
+/*.food-items{
     display: none;
-}
+}*/
 
 #mc,#kfc,#Chinese,#ice-cream{
     margin-top: 40px;
