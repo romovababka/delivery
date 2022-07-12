@@ -330,7 +330,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;
     font-size: 18px;
     text-transform: uppercase;
-    botton: 30px;
+    bottom: 30px;
     margin: 15px 0;
     cursor: pointer;
 }
